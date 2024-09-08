@@ -1,4 +1,4 @@
-package SRP.Example1.GoodCode;
+package SingleResponsibilityPrinciple.Example1.GoodCode;
 
 public class Employee {
 

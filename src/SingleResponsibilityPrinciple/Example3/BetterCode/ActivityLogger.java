@@ -1,4 +1,4 @@
-package SRP.Example3.BetterCode;
+package SingleResponsibilityPrinciple.Example3.BetterCode;
 
 public class ActivityLogger {
 
