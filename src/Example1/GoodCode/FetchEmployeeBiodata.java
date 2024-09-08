@@ -1,4 +1,4 @@
-package GoodCode;
+package Example1.GoodCode;
 
 public class FetchEmployeeBiodata {
     public void fetchBioData(Employee employee) {
