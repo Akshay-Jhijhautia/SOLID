@@ -1,6 +1,6 @@
-package SingleResponsibilityPrinciple.Example2;
+package SOLID.SingleResponsibilityPrinciple.Example2;
 
-import SingleResponsibilityPrinciple.Example1.GoodCode.Employee;
+import SOLID.SingleResponsibilityPrinciple.Example1.GoodCode.Employee;
 
 // This class follows Single Responsibility Principle
 public class EmployeePerformanceGenerator {

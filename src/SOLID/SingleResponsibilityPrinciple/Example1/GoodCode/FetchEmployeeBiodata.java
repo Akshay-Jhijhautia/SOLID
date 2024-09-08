@@ -1,4 +1,4 @@
-package SingleResponsibilityPrinciple.Example1.GoodCode;
+package SOLID.SingleResponsibilityPrinciple.Example1.GoodCode;
 
 public class FetchEmployeeBiodata {
     public void fetchBioData(Employee employee) {

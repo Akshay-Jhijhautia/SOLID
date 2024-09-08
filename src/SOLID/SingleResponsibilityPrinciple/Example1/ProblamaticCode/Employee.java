@@ -1,4 +1,4 @@
-package SingleResponsibilityPrinciple.Example1.ProblamaticCode;
+package SOLID.SingleResponsibilityPrinciple.Example1.ProblamaticCode;
 
 // This class also violates Single Responsibility Principle
 public class Employee {
