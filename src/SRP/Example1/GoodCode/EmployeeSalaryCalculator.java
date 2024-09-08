@@ -1,4 +1,4 @@
-package Example1.GoodCode;
+package SRP.Example1.GoodCode;
 
 public class EmployeeSalaryCalculator {
 
