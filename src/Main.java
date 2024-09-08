@@ -2,7 +2,6 @@ import ProblamaticCode.Employee;
 
 public class Main {
     public static void main(String[] args) {
-        Employee e = new Employee();
-        e.printPerformance();
+        System.out.println("SOLID PRINCIPLES");
     }
 }
