@@ -8,12 +8,12 @@ public class Main {
         List<InternationalPaymentCompatibleCreditCards> cards = new ArrayList<>();
         List<UpiPaymentCompatibleCreditCard> cards1 = new ArrayList<>();
 
-        for(InternationalPaymentCompatibleCreditCards card: card) {
-            card.internationalPayment();
-        }
-
-        for(UpiPaymentCompatibleCreditCard card: card) {
-            card.upiPayments();
-        }
+//        for(InternationalPaymentCompatibleCreditCards card: card) {
+//            card.internationalPayment();
+//        }
+//
+//        for(UpiPaymentCompatibleCreditCard card: card) {
+//            card.upiPayments();
+//        }
     }
 }
