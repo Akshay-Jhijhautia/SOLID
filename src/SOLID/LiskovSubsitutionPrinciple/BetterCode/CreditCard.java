@@ -1,4 +1,4 @@
-package SOLID.LiskovSubsitutionPrinciple.ProblamaticCode;
+package SOLID.LiskovSubsitutionPrinciple.BetterCode;
 
 public abstract class CreditCard {
 
@@ -10,8 +10,6 @@ public abstract class CreditCard {
     public abstract void onlineTransfer();
     public abstract void mandatePayments();
     public abstract void swipeAndPay();
-    public abstract void upiPayments();
-    public abstract void internationalPayments();
 
     public void setCcNumber(String ccNumber) {
         this.ccNumber = ccNumber;

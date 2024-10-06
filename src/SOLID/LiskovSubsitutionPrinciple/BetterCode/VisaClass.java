@@ -1,6 +1,6 @@
-package SOLID.LiskovSubsitutionPrinciple.ProblamaticCode;
+package SOLID.LiskovSubsitutionPrinciple.BetterCode;
 
-public class VisaClass extends CreditCard{
+public class VisaClass extends CreditCard implements InternationalPaymentCompatibleCreditCards{
     @Override
     public void tapAndPay() {
         System.out.println("Tap and Pay for visa");
@@ -22,12 +22,7 @@ public class VisaClass extends CreditCard{
     }
 
     @Override
-    public void upiPayments() {
-        System.out.println("Does not support UPI Payments");
-    }
-
-    @Override
-    public void internationalPayments() {
-        System.out.println("Does not support International Payments");
+    public void internationalPayment() {
+        System.out.println("International Payments for Visa");
     }
 }

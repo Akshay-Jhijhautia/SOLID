@@ -1,6 +1,6 @@
-package SOLID.LiskovSubsitutionPrinciple.ProblamaticCode;
+package SOLID.LiskovSubsitutionPrinciple.BetterCode;
 
-public class Rupay extends CreditCard{
+public class Rupay extends CreditCard implements UpiPaymentCompatibleCreditCard{
     @Override
     public void tapAndPay() {
         System.out.println("Tap and Pay for rupay");
@@ -23,11 +23,6 @@ public class Rupay extends CreditCard{
 
     @Override
     public void upiPayments() {
-        System.out.println("Support UPI Payments");
-    }
-
-    @Override
-    public void internationalPayments() {
-        System.out.println("Does not support International Payments");
+        System.out.println("Upi payment for Rupay");
     }
 }
